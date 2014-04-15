@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.364" errors="0" skipped="0" tests="29" name="mx.victor.arana.codingbat.LogicOneTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre6\bin"/>
+    <property name="java.vm.version" value="20.10-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Victor\Dropbox\Programacion\Java\CodingBat\workspace\CodingBatJUnit4"/>
+    <property name="java.runtime.version" value="1.6.0_35-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre6\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Victor\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Victor\Dropbox\Programacion\Java\CodingBat\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf849730798467983299.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.6.0_35\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files\Java\jdk1.6.0_35\bin;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Victor"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Victor"/>
+    <property name="java.class.path" value="/C:/Program Files/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre6"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_35"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files\Java\jre6\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\Users\Victor\Dropbox\Programacion\Java\CodingBat\workspace\CodingBatJUnit4\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="maven.bootclasspath" value="/C:/Program Files/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.05" classname="mx.victor.arana.codingbat.LogicOneTest" name="TenSum"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="teaParty"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="fizzString2"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="specialEleven"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="testsumLimit"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="less20"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="more20"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="inOrderEqual"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="alarmClock"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="blueTicket"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="love6"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="old35"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="caughtSpeeding"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="sharedDigit"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="SquirrelPlay"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="maxMod5"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="answerCell"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="redTicket"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="withoutDoubles"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="sortaSum"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="twoAsOne"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="DateFashion"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="nearTen"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="fizzString"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="in1To10"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="inOrder"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="lastDigit"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="greenTicket"/>
+  <testcase time="0" classname="mx.victor.arana.codingbat.LogicOneTest" name="lessBy10"/>
+</testsuite>
