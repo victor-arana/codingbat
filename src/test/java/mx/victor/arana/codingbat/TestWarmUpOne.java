@@ -65,5 +65,18 @@ public class TestWarmUpOne extends TestCase {
 		assertEquals(5,WarmUpOne.sumDouble(3,2));
 		assertEquals(8,WarmUpOne.sumDouble(2,2));
 	}
+	
+	/**
+	 * The parameter weekday is true if it is a weekday, and the parameter vacation
+	 * is true if we are on vacation. We sleep in if is not a weekday or we're on 
+	 * vacation.
+	 * @author Victor José Arana Rodríguez
+	 * @since 16/11/2014
+	 */
+	public void testsleepIn(){
+		assertEquals(true,WarmUpOne.sleepIn(false,false));
+		assertEquals(false,WarmUpOne.sleepIn(true,false));
+		assertEquals(true,WarmUpOne.sleepIn(false,true));
+	}
 			
 }

@@ -80,6 +80,20 @@ public class WarmUpOne {
 			sum = 2*sum;
 		}
 		return sum;
+	}
+
+	/**
+	 * The parameter weekday is true if it is a weekday, and the parameter vacation
+	 * is true if we are on vacation. We sleep in if is not a weekday or we're on 
+	 * vacation.
+	 * @author Victor José Arana Rodríguez
+	 * @since 16/11/2014
+	 * @param weekday
+	 * @param vacation
+	 * @return sleep in
+	 */
+	public static boolean sleepIn(boolean weekday, boolean vacation) {
+		return !weekday || vacation;
 	}	
 
 }
