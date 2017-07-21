@@ -2,6 +2,7 @@ package mx.victor.arana.codingbat;
 
 public class WarmUpOne {
 
+	
 	/**
 	 * Given a string, take the last char and return a new string with 
 	 * the last char added at the front and back, so "cat" yields "tcatt". 
@@ -94,6 +95,30 @@ public class WarmUpOne {
 	 */
 	public static boolean sleepIn(boolean weekday, boolean vacation) {
 		return !weekday || vacation;
+	}
+
+	/**
+	 * Given a string name, e.g. "Bob". return a greeting of the form
+	 * "Hello Bob!". 
+	 *
+	 * @param string
+	 * @return
+	 */
+	public static String helloName(String string) {
+		return "Hello " + string + "!";
+	}
+
+	
+	/**
+	 * Given two strings, a and b, return the result of putting them together in
+	 * the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+	 * 
+	 * @param string
+	 * @param string2
+	 * @return
+	 */
+	public static String makeAbba(String a, String b) {
+		return a+b+b+a;
 	}	
 
 }

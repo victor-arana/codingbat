@@ -3,6 +3,18 @@ package mx.victor.arana.codingbat;
 import junit.framework.TestCase;
 
 public class TestWarmUpOne extends TestCase {
+	
+	/**
+	 * Given two strings, a and b, return the result of putting them together in
+	 * the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+	 */
+	public void testMakeAbba(){
+		assertEquals("HiByeByeHi", WarmUpOne.makeAbba("Hi", "Bye"));
+		assertEquals("YoAliceAliceYo", WarmUpOne.makeAbba("Yo", "Alice"));
+		assertEquals("WhatUpUpWhat", WarmUpOne.makeAbba("What", "Up"));
+	}
+	
+	
 	/**
 	 * Given a string, take the last char and return a new string 
 	 * with the last char added at the front and back, so "cat" yields 

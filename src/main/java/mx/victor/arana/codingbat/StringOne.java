@@ -21,6 +21,14 @@ public class StringOne {
 	public static String makeAbba(String a, String b) {
 		return a + b + b + a;
 	}
+	
+	/**
+     * Given tag and word strings, create the HTML string with tags around the 
+     * word, e.g. "<i>Yay</i>".
+	 */
+	public static String makeTags(String tag, String word) {
+		return "<" + tag + ">" + word + "</" + tag + ">";
+	}
 
 	public static String altPairs(String str) {
 		String res = "";
@@ -100,6 +108,8 @@ public class StringOne {
 			}		
 			return res; 
 		}
+
+
 	
 
 }
